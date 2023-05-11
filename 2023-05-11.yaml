@@ -1,0 +1,415 @@
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: DefaultGigWorker
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-trigger-build
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: one
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: amplify-sedaicustomeronboar-HostedUICustomResource-7wZbMPOmwFDl
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: gigManagerTest
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: SavithaHW
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-avlambda-control-center-production-function
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-onboarding-configs
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: pybenchmark
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: processTelemetryData
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: AVLambda
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-telemetry-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: ApiTokenGenerator
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: amplify-sedaicustomeronboard-s-OAuthCustomResource-UatUpzYQSlAQ
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: pyregister
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_file_io_benchmark
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: theLambdaCalledAVLambda
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: benchmark_cold_start_lambda_node
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: ProcessAwsMarketplaceSubscriptionRequest
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-add-user-invites
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-mp-test-connection
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-provision-status
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_cpu_and_mem
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: LambdaWithAliasTest:3
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: wrapit
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: benchmark_cold_start_lambda_python
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: LambdaWithAliasTest:2
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: vmware-sddc-formation-18e0ca3c-db67-NotifyOfStatus-1O11610W1K65V
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: LambdaWithAliasTest:1
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: benchmark_cold_start_lambda_java
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: amplify-sedaicustomeronbo-HostedUIProvidersCustomR-XeYvYzgNBP5P
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-meet-dev-app
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: benchmark_cold_start_lambda_cs
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: amplify-sedaicustomeronboard--UserPoolClientLambda-q6YHxwrZPp1j
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: extension-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: av-burst-mode
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: insights-test-warmup-like
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: HelloWorld
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: insights-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: test-resource-transition-rajat
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: alfiLambda
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: apigatewayinvoketest
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-resource-settings
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: pybenchmark
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: RequestUnicorn
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-discovery-check
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: amplify-sedaicustomeronboard-sedai-RoleMapFunction-jr8sBmi2ljo7
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-pre-signup-tasks
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: createSedaiSetupKey
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-cp-test-connection
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_cp_and_nw
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-java-ie-test-without-jackson-core
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-provision-success
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-java-ie-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: link-cognito-user-accounts-pre-signup
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: insights-test-locust
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_network_io_benchmark
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: av-invoke-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_file_and_nw
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_hello_world
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: SedaiCustomersRecordsProcess
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: StartupKeyGenerator
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: amplify-sedaicustomeronbo-UpdateRolesWithIDPFuncti-3VrotGduLeav
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: python-extension-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: cloudzero-connected-account-Disc-DiscoveryFunction-YAL6OQTobPcP
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-nodejs-ie-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: gig-dev-gig-worker
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: firstLambda
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_mem_benchmark
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_cpu_benchmark
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: LicenseGenerator
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-submit-hubspot-form
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: HelloWorld:2
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_file_and_mem
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: HelloWorld:1
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: perf_bill_file_and_hw
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: xiggit-lambda-test
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-nodejs-ie-test-arm
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-health-check
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: cloudzero-connected-account-N-NotificationFunction-vVFLON1Zu4DZ
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: LambdaWithAliasTest
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: sedai-onboard-safety-check
+  MemorySize: 
+  Timeout: 
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: dotnet-extension-test
+  MemorySize: 
+  Timeout: 
