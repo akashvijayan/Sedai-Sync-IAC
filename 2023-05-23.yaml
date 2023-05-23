@@ -1,0 +1,192 @@
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: LambdaWithAliasTest:3
+  MemorySize: 154
+  Timeout: 4
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: taps-demo-timeout-test
+  MemorySize: 128
+  Timeout: 18
+Deployment: checkoutservice
+SedaiState:
+  --- !<KubeResourceConfigState>
+replicas: 1
+kubeContainerConfigStateMap:
+  server:
+    cpuLimit: "0.3"
+    cpuLimitValue: !<K8sCpuValue>
+      value: 0.3
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "300m"
+      humanReadableRepresentation: "300m"
+    cpuRequest: "0.117"
+    cpuRequestValue: !<K8sCpuValue>
+      value: 0.117
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "117m"
+      humanReadableRepresentation: "117m"
+    memoryLimitBytes: 27890176
+    memoryLimitValue: !<MemoryValue>
+      value: 2.7890176E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "26.6 MiB"
+      humanReadableRepresentation: "26.6 MiB"
+    memoryRequestBytes: 15645120
+    memoryRequestValue: !<MemoryValue>
+      value: 1.564512E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "14.92 MiB"
+      humanReadableRepresentation: "14.92 MiB"
+
+Deployment: grapes-app
+SedaiState:
+  --- !<KubeResourceConfigState>
+replicas: 1
+kubeContainerConfigStateMap:
+  grapes-container:
+    cpuLimit: "0.3"
+    cpuLimitValue: !<K8sCpuValue>
+      value: 0.3
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "300m"
+      humanReadableRepresentation: "300m"
+    cpuRequest: "0.117"
+    cpuRequestValue: !<K8sCpuValue>
+      value: 0.117
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "117m"
+      humanReadableRepresentation: "117m"
+    memoryLimitBytes: 18874368
+    memoryLimitValue: !<MemoryValue>
+      value: 1.8874368E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "18 MiB"
+      humanReadableRepresentation: "18 MiB"
+    memoryRequestBytes: 10485760
+    memoryRequestValue: !<MemoryValue>
+      value: 1.048576E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "10 MiB"
+      humanReadableRepresentation: "10 MiB"
+
+Deployment: redis-cart
+SedaiState:
+  --- !<KubeResourceConfigState>
+replicas: 1
+kubeContainerConfigStateMap:
+  redis:
+    cpuLimit: "0.26"
+    cpuLimitValue: !<K8sCpuValue>
+      value: 0.26
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "260m"
+      humanReadableRepresentation: "260m"
+    cpuRequest: "0.11"
+    cpuRequestValue: !<K8sCpuValue>
+      value: 0.11
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "110m"
+      humanReadableRepresentation: "110m"
+    memoryLimitBytes: 86610490
+    memoryLimitValue: !<MemoryValue>
+      value: 8.661049E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "82.6 MiB"
+      humanReadableRepresentation: "82.6 MiB"
+    memoryRequestBytes: 65316848
+    memoryRequestValue: !<MemoryValue>
+      value: 6.5316848E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "62.29 MiB"
+      humanReadableRepresentation: "62.29 MiB"
+
+Deployment: lab02ekscluster
+SedaiState:
+  --- !<KubeResourceConfigState>
+replicas: 2
+kubeContainerConfigStateMap:
+  delegate:
+    cpuLimit: null
+    cpuLimitValue: null
+    cpuRequest: "0.417"
+    cpuRequestValue: !<K8sCpuValue>
+      value: 0.417
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "417m"
+      humanReadableRepresentation: "417m"
+    memoryLimitBytes: 1828542249
+    memoryLimitValue: !<MemoryValue>
+      value: 1.828542249E9
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "1.7 GiB"
+      humanReadableRepresentation: "1.7 GiB"
+    memoryRequestBytes: 1793148846
+    memoryRequestValue: !<MemoryValue>
+      value: 1.793148846E9
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "1.67 GiB"
+      humanReadableRepresentation: "1.67 GiB"
+
+Deployment: apple-app
+SedaiState:
+  --- !<KubeResourceConfigState>
+replicas: 1
+kubeContainerConfigStateMap:
+  apple-app-09:
+    cpuLimit: "0.232"
+    cpuLimitValue: !<K8sCpuValue>
+      value: 0.232
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "232m"
+      humanReadableRepresentation: "232m"
+    cpuRequest: "0.094"
+    cpuRequestValue: !<K8sCpuValue>
+      value: 0.094
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "94m"
+      humanReadableRepresentation: "94m"
+    memoryLimitBytes: 16246846
+    memoryLimitValue: !<MemoryValue>
+      value: 1.6246846E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "15.49 MiB"
+      humanReadableRepresentation: "15.49 MiB"
+    memoryRequestBytes: 9769163
+    memoryRequestValue: !<MemoryValue>
+      value: 9769163.0
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "9.32 MiB"
+      humanReadableRepresentation: "9.32 MiB"
+
+Deployment: paymentservice
+SedaiState:
+  --- !<KubeResourceConfigState>
+replicas: 1
+kubeContainerConfigStateMap:
+  server:
+    cpuLimit: "0.246"
+    cpuLimitValue: !<K8sCpuValue>
+      value: 0.246
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "246m"
+      humanReadableRepresentation: "246m"
+    cpuRequest: "0.123"
+    cpuRequestValue: !<K8sCpuValue>
+      value: 0.123
+      metricUnit: "CORES"
+      machineFriendlyRepresentation: "123m"
+      humanReadableRepresentation: "123m"
+    memoryLimitBytes: 112071803
+    memoryLimitValue: !<MemoryValue>
+      value: 1.12071803E8
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "106.88 MiB"
+      humanReadableRepresentation: "106.88 MiB"
+    memoryRequestBytes: 57081024
+    memoryRequestValue: !<MemoryValue>
+      value: 5.7081024E7
+      metricUnit: "BYTES"
+      machineFriendlyRepresentation: "54.44 MiB"
+      humanReadableRepresentation: "54.44 MiB"
+
