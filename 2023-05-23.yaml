@@ -1,0 +1,15 @@
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: bfs-etl-s3-to-sql
+  MemorySize: 10240
+  Timeout: 600
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: deploy-slo-monitors-lambd-FlightsSloMonitorsLambda-eDjtl3AZZ6gk
+  MemorySize: 1024
+  Timeout: 72
+Type: AWS::Lambda::Function
+Properties: 
+  FunctionName: bfs-sql-sync
+  MemorySize: 8192
+  Timeout: 900
